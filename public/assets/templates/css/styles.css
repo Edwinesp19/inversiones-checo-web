@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/figtree/') format('truetype');
+  }
+
+/* Estilo de la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 11px;
+    background-color: #d1d1d100;
+    border-radius: 14px;
+  }
+
+  /* Color del pulgar de la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+  }
+
+  /* Ajuste de la posición */
+  ::-webkit-scrollbar {
+    position: absolute;
+    right: 30px; /* Ajusta este valor para cambiar la posición */
+  }
+
